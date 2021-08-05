@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define LENGTH 20
+#define LENGTH 16
 
 int main()
 {

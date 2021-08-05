@@ -2,14 +2,16 @@
 
 int main()
 {
-  int ch;
+  int a, ch;
 
   printf("Press Enter: ");
-  getchar();
+  a = getchar();
+  putchar(a);
   ch = 'H';
   putchar(ch);
   ch = 'i';
   putchar(ch);
   putchar('!');
+  putchar('\n');
   return(0);
 }
